@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19369" started-at="2016-04-08T21:44:42Z" finished-at="2016-04-08T21:45:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19369" started-at="2016-04-08T21:44:42Z" finished-at="2016-04-08T21:45:01Z">
+      <class name="pack3.ej_3">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:pack3.ej_3@1593948d]" name="beforeMethod" is-config="true" duration-ms="6614" started-at="2016-04-08T18:44:42Z" finished-at="2016-04-08T18:44:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59402b8f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="exercise03()[pri:0, instance:pack3.ej_3@1593948d]" name="exercise03" duration-ms="12512" started-at="2016-04-08T18:44:48Z" description="Exercise" finished-at="2016-04-08T18:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exercise03 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:pack3.ej_3@1593948d]" name="afterMethod" is-config="true" duration-ms="219" started-at="2016-04-08T18:45:01Z" finished-at="2016-04-08T18:45:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59402b8f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- pack3.ej_3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
