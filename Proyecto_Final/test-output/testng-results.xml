@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87186" started-at="2016-05-02T23:25:58Z" finished-at="2016-05-02T23:27:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87186" started-at="2016-05-02T23:25:58Z" finished-at="2016-05-02T23:27:25Z">
+      <class name="pack_proy_final.Inicial">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pack_proy_final.Inicial@732c2a62]" name="beforeMethod" is-config="true" duration-ms="77" started-at="2016-05-02T20:25:58Z" finished-at="2016-05-02T20:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logueo1(java.lang.String, java.lang.String)[pri:1, instance:pack_proy_final.Inicial@732c2a62]" name="logueo1" duration-ms="5555" started-at="2016-05-02T20:25:58Z" data-provider="Logueo" finished-at="2016-05-02T20:26:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franciscosalvetti10@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[esmeralda24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logueo1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pack_proy_final.Inicial@732c2a62]" name="beforeMethod" is-config="true" duration-ms="794" started-at="2016-05-02T20:26:04Z" finished-at="2016-05-02T20:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enviar_correo1(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:pack_proy_final.Inicial@732c2a62]" name="enviar_correo1" duration-ms="11385" started-at="2016-05-02T20:26:04Z" data-provider="Envio" depends-on-methods="pack_proy_final.Inicial.logueo1" finished-at="2016-05-02T20:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franciscosalvetti6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[primer asunto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[este es el primer mensaje]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enviar_correo1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pack_proy_final.Inicial@732c2a62]" name="beforeMethod" is-config="true" duration-ms="20" started-at="2016-05-02T20:26:16Z" finished-at="2016-05-02T20:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enviar_correo1(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:pack_proy_final.Inicial@732c2a62]" name="enviar_correo1" duration-ms="5206" started-at="2016-05-02T20:26:16Z" data-provider="Envio" depends-on-methods="pack_proy_final.Inicial.logueo1" finished-at="2016-05-02T20:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franciscosalvetti6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[segundo asunto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[este es el segundo mensaje]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enviar_correo1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pack_proy_final.Inicial@732c2a62]" name="beforeMethod" is-config="true" duration-ms="20" started-at="2016-05-02T20:26:21Z" finished-at="2016-05-02T20:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enviar_correo1(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:pack_proy_final.Inicial@732c2a62]" name="enviar_correo1" duration-ms="5182" started-at="2016-05-02T20:26:21Z" data-provider="Envio" depends-on-methods="pack_proy_final.Inicial.logueo1" finished-at="2016-05-02T20:26:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franciscosalvetti6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tercer asunto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[este es el tercer mensaje]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enviar_correo1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pack_proy_final.Inicial@732c2a62]" name="beforeMethod" is-config="true" duration-ms="22" started-at="2016-05-02T20:26:26Z" finished-at="2016-05-02T20:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="comprobar_correos1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:pack_proy_final.Inicial@732c2a62]" name="comprobar_correos1" duration-ms="20895" started-at="2016-05-02T20:26:26Z" data-provider="Comprobar" depends-on-methods="pack_proy_final.Inicial.enviar_correo1" finished-at="2016-05-02T20:26:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franciscosalvetti6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[este es el primer mensaje]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[este es el segundo mensaje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[este es el tercer mensaje]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comprobar_correos1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pack_proy_final.Inicial@732c2a62]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2016-05-02T20:26:47Z" finished-at="2016-05-02T20:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deslog()[pri:4, instance:pack_proy_final.Inicial@732c2a62]" name="deslog" duration-ms="638" started-at="2016-05-02T20:26:47Z" depends-on-methods="pack_proy_final.Inicial.comprobar_correos1" finished-at="2016-05-02T20:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deslog -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pack_proy_final.Inicial@732c2a62]" name="beforeMethod" is-config="true" duration-ms="2541" started-at="2016-05-02T20:26:48Z" finished-at="2016-05-02T20:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logueo2(java.lang.String, java.lang.String)[pri:5, instance:pack_proy_final.Inicial@732c2a62]" name="logueo2" duration-ms="4894" started-at="2016-05-02T20:26:50Z" data-provider="Logueo2" depends-on-methods="pack_proy_final.Inicial.deslog" finished-at="2016-05-02T20:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franciscosalvetti6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[esmeralda24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logueo2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pack_proy_final.Inicial@732c2a62]" name="beforeMethod" is-config="true" duration-ms="1052" started-at="2016-05-02T20:26:55Z" finished-at="2016-05-02T20:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ComprobarRecibidos(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:pack_proy_final.Inicial@732c2a62]" name="ComprobarRecibidos" duration-ms="28801" started-at="2016-05-02T20:26:56Z" data-provider="ComprobarRecibidos" depends-on-methods="pack_proy_final.Inicial.logueo2" finished-at="2016-05-02T20:27:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[franciscosalvetti10@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[este es el primer mensaje]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[este es el segundo mensaje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[este es el tercer mensaje]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComprobarRecibidos -->
+      </class> <!-- pack_proy_final.Inicial -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

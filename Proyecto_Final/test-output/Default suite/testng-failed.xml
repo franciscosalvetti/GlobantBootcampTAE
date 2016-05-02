@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="pack_proy_final.Inicial">
+        <methods>
+          <include name="ComprobarRecibidos"/>
+          <include name="logueo1"/>
+          <include name="deslog"/>
+          <include name="comprobar_correos1"/>
+          <include name="logueo2"/>
+          <include name="enviar_correo1" invocation-numbers="1"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- pack_proy_final.Inicial -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
