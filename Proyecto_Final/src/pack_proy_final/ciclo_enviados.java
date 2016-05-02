@@ -24,7 +24,6 @@ public class ciclo_enviados {
 			Fila.click();
 			List<WebElement> Celdas = Fila.findElements(By.tagName("td"));
 			Numero_Correos = Celdas.get(3).getText();
-			System.out.println(Celdas.get(3).getText());
 			if((Numero_Correos.contains(Control1)) && (Numero_Correos.contains(Control2))){
 				//mas de un correo en la conversacion
 				WebElement Lista = Inicial.driver.findElement(By.xpath("//div[@class='nH aHU']"));							//tomo la clase que contiene la conversacion
@@ -34,7 +33,6 @@ public class ciclo_enviados {
 				msj = ultCorreo.findElement(By.xpath("//div[@class='a3s aXjCH adM']")).getText();							//rescato el mensaje del correo
 				ultCorreo.findElement(By.className("ajy")).click();															//abro la ventana desplegable
 				desti = ultCorreo.findElement(By.xpath("//tr[@class='ajv']/td[@class='gL']/span[@class='gI']")).getText();	//rescatar el remitente del correo
-				System.out.println("mas de un correo");
 			}
 			else{
 				//solo un correo en la conversacion
@@ -42,7 +40,6 @@ public class ciclo_enviados {
 				msj = ultCorreo.findElement(By.xpath("//div[@class='a3s aXjCH']")).getText();								//tomo el mensaje del correo
 				ultCorreo.findElement(By.className("ajy")).click();															//abro la ventana desplegable
 				desti = ultCorreo.findElement(By.xpath("//tr[@class='ajv']/td[@class='gL']/span[@class='gI']")).getText();  //tomo el destinatario
-				System.out.println("un solo correo");
 			}	
 			
 			//System.out.println(desti+"  "+destinatario+"            "+msj+"  "+mensaje);

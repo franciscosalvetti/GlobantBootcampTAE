@@ -62,11 +62,9 @@ public class Inicial {
 	   public void enviar_correo1(String destinatario, String asunto, String mensaje) {
 		   //enviar mail 
 		   enviar_correo1.enviar_mail(destinatario, asunto, mensaje);	
-		   try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		   try {Thread.sleep(1000);} 
+		   catch (InterruptedException e) 
+		   {e.printStackTrace();
 		}
 	   }
 //----------Comprobacion------------------------------------------------		   	   	   	   	  
